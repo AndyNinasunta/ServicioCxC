@@ -17,6 +17,11 @@
         <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>ServicioValidaIdentCliente</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>/faces/*</url-pattern>
@@ -24,6 +29,10 @@
     <servlet-mapping>
         <servlet-name>ServicioCxC</servlet-name>
         <url-pattern>/ServicioCxC</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServicioValidaIdentCliente</servlet-name>
+        <url-pattern>/ServicioValidaIdentCliente</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

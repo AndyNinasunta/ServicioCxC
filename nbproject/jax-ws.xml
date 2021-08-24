@@ -4,6 +4,9 @@
     <service name="ServicioCxC">
       <implementation-class>servicios.ServicioCxC</implementation-class>
     </service>
+    <service name="ServicioValidaIdentCliente">
+      <implementation-class>servicios.ServicioValidaIdentCliente</implementation-class>
+    </service>
   </services>
   <clients/>
   <jsr109>false</jsr109>
